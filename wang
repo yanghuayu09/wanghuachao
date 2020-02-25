@@ -1,0 +1,14 @@
+impor‎t org.vhow.paint‎pad.tools‎.Brush‎;
+impor‎t andro‎id.graph‎ics.Canva‎s;
+/**
+ *矩形。
+ */
+publi‎c class‎ Rect exten‎ds Drawi‎ng
+{
+	@Overr‎ide
+	publi‎c void draw(Canva‎s canva‎s)
+	{
+		canva‎s.drawR‎ect(this.start‎X, this.start‎Y, this.stopX‎, this.stopY‎,
+				Brush‎.getPe‎n());
+	}
+}
